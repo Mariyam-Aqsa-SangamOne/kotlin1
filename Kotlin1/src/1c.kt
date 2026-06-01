@@ -1,7 +1,7 @@
 fun main(){
-
+    var mul=1
     for(i in 0..10){
-        var mul=i*2
+        mul=i*2
         println("$mul")
     }
 }
