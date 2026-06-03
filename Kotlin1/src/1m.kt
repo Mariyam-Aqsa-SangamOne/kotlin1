@@ -4,9 +4,9 @@ fun main(){
     val numbers=line.split(",")
     val start=numbers[0].toInt()
     val end=numbers[1].toInt()
-    for(num in start..end){
+    for(j in start..end){
         for(i in 1..10){
-            println("$num*$i=${num*i}")
+            println("$j*$i=${j*i}")
         }
         println()
     }

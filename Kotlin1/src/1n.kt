@@ -5,9 +5,9 @@ fun main(){
     val start=numbers[0].toInt()
     val end=numbers[1].toInt()
     var output=""
-    for(num in start..end){
+    for(j in start..end){
         for(i in 1..10){
-            output+="$num*$i=${num*i}\n"
+            output+="$j*$i=${j*i}\n"
         }
         output+="\n"
     }
