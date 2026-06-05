@@ -5,7 +5,7 @@ fun quiz1(fname: String) {
     var capitals = mutableListOf<String>()
     var responses = mutableListOf<String>()
     var marks = mutableListOf<Int>()
-    val f1 = File("gk1.txt").readLines()
+    val f1 = File(fname).readLines()
 
     for (i in 0 until 10) {
         val parts = f1[i].trim().split(",")
