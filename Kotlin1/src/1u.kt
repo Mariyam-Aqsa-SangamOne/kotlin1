@@ -18,6 +18,7 @@ fun main(){
         responses.add(ans)
     }
     println()
+    println()
     for (i in 0 until 10){
         if(responses[i].trim().lowercase()==capitals[i].trim().lowercase()){
             marks.add(10)
